@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
+import profie from '../public/assets/profile.png';
 
 const About = () => {
   return (
@@ -40,7 +41,7 @@ const About = () => {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center py-4 hover:scale-105 ease-in duration-300'>
-           <Image src="/../public/assets/profile.png" width="144px" height="234px " alt=''/>
+           <Image src={profie} width="144px" height="234px " alt=''/>
         </div>
       </div>
     </div>
