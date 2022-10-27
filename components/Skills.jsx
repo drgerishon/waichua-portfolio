@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import node from '../public/assets/experience/node.png'
-import github from '../public/assets/experience/github.png'
+// import github from '../public/assets/experience/github.png'
 import react from '../public/assets/experience/reactImage.png'
 import html from '../public/assets/experience/html.png'
 import tailwind from '../public/assets/experience/tailwind.png'
 import graphql from '../public/assets/experience/graphql.png'
 import css from '../public/assets/experience/css.png'
 import nextjs from '../public/assets/experience/nextjs.png'
-import javascript from '../public/assets/experience/javascipt.png'
+import javascript from '../public/assets/experience/javascript.png'
 
 
 
@@ -89,7 +89,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-2 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={github} width="64px" height="64px " alt=''/>
@@ -98,7 +98,7 @@ const Skills = () => {
                             <h3>GitHub</h3>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-2 justify-center items-center'>
