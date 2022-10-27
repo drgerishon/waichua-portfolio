@@ -8,43 +8,43 @@ const resume = () => {
       <Head>
         <title>GERISHON | Resume</title>
         <meta
-          name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          name="description"
+          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel='icon' href='/fav.png' />
+        <link rel="icon" href="/fav.png" />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>GERISHON WAICHUA</h2>
-          <div className='flex'>
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <h2 className="text-center">Resume</h2>
+        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
+          <h2 className="text-center">GERISHON WAICHUA</h2>
+          <div className="flex">
             <a
-              href='https://www.linkedin.com/in/gerishonkungu/'
-              target='_blank'
-              rel='noreferrer'
+              href="https://www.linkedin.com/in/gerishonkungu/"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/drgerishon/'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/drgerishon/"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaGithub size={20} style={{ marginRight: '1rem' }} />
             </a>
           </div>
         </div>
-        <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
-          <div className='hidden sm:block'>
+        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+          <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Proven Leadership <span className="px-1">|</span> Web Development{' '}
+              <span className="px-1">|</span> Complex Problem Solving
             </p>
           </div>
-          <div className='block sm:hidden'>
+          <div className="block sm:hidden">
             <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
+            <p className="py-2">Web Development</p>
             <p>Complex Problem Solving</p>
           </div>
         </div>
@@ -61,43 +61,43 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2">
+            <span className="font-bold">Technical Skills</span>
+            <span className="px-2">|</span>Front-End Web Developer
+            <span className="px-2">|</span> HTML
+            <span className="px-2">|</span>CSS
+            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>React
+            <span className="px-2">|</span>Next JS
+            <span className="px-2">|</span>SQL
+            <span className="px-2">|</span>NoSQL
+            <span className="px-2">|</span>Redux
+            <span className="px-2">|</span>Tailwind
+            <span className="px-2">|</span> Firebase
+            <span className="px-2">|</span> RESTAPI
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
+          <p className="py-2">
+            <span className="font-bold">Amazon Web Services</span>
+            <span className="px-2">|</span>Amazon Web Services Cloud
             Practitioner
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-           DEVKAN ENT LTD
-            </span>
-            <span className='px-2'>|</span>Nairobi, Ke
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">DEVKAN ENT LTD</span>
+            <span className="px-2">|</span>Nairobi, Ke
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2018 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">
+            Front End Web Developer & Web Master (2018 - Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Ensured comprehensive mobile responsive UI layouts with
               understanding of HTML, CSS, and JavaScript.
@@ -117,17 +117,18 @@ const resume = () => {
           </ul>
         </div>
 
-
         {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
               Teaching & Mentoring Web Development
             </span>
-            <span className='px-2'>|</span>Nairobi, ke
+            <span className="px-2">|</span>Nairobi, ke
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">
+            Code Commerce - Youtube Channel (2021 - Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               In 2021 I started “Code Commerce”, a YouTube channel focused on
               sharing what I’m learning in web development, specifically
@@ -142,29 +143,29 @@ const resume = () => {
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className="text-center underline text-[18px] py-4">
           Other Professional Experience
         </h5>
-      
+
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>Nairobi, Ke</span>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">Nairobi, Ke</span>
             {/* <span className='px-2'>|</span>ANDELA BOOTCAMP */}
           </p>
-          <p className='py-1 italic'>Softwarer Developer / ANDELA BOOTCAMP (Jan - May 2017)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">
+            Softwarer Developer / ANDELA BOOTCAMP (Jan - May 2017)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-            Pair programming exercises that test deep understanding of algorithms, on the fly problem-solving and collaborations.
-
+              Pair programming exercises that test deep understanding of
+              algorithms, on the fly problem-solving and collaborations.
             </li>
+            <li>Advanced JavaScript and python programming.</li>
             <li>
-            Advanced JavaScript and python programming.
+              Develop technical and team skills in alignment with Andela
+              development framework.
             </li>
-            <li>
-            Develop technical and team skills in alignment with Andela development framework.
-            </li>
-           
           </ul>
         </div>
       </div>
