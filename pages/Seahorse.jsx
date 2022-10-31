@@ -27,10 +27,11 @@ const Seahorse = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-           This is s client website to facilitate his day to day marketing of their goods and services.
+            This is s client website to facilitate his day to day marketing of
+            their goods and services.
           </p>
           <a
-            href="https://github.com/drgerishon/property-finder"
+            href="https://github.com/bond50/seahorse"
             target="_blank"
             rel="noreferrer"
           >
