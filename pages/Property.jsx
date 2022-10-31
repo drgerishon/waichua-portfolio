@@ -17,8 +17,8 @@ const property = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Gshon Web Solutions</h2>
+          <h3>Next JS / Tailwind / MongoDb</h3>
         </div>
       </div>
 
@@ -27,14 +27,7 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using Next JS for my web services agency.
           </p>
           <a
             href="https://github.com/drgerishon/gshon_solutions"
