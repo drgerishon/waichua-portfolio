@@ -3,6 +3,7 @@ import viewke from '../public/assets/viewke.PNG';
 import proj5 from '../public/assets/proj5.PNG';
 import proj4 from '../public/assets/proj4.PNG';
 import seaenergy from '../public/assets/seaenergy.PNG';
+import face from '../public/assets/face.PNG';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,23 +18,23 @@ const Projects = () => {
           <ProjectItem
             title="View 254"
             backgroundImg={viewke}
-            projectUrl="/Viewke"
+            projectUrl="/viewke"
           />
           <ProjectItem
             title="Gshon Agency"
             backgroundImg={proj5}
-            projectUrl="/Property"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Seahorse LTD"
             backgroundImg={seaenergy}
-            projectUrl="/Seahorse"
+            projectUrl="/seahorse"
           />
 
           <ProjectItem
-            title="E-Commerce"
-            backgroundImg={proj4}
-            projectUrl="/Property"
+            title="E-Commerce Ware shopping"
+            backgroundImg={face}
+            projectUrl="/face"
           />
         </div>
       </div>
